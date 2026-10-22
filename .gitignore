@@ -1,0 +1,21 @@
+# 编译产物
+*.exe
+dist/
+release/
+
+# Go
+*.test
+*.out
+vendor/
+
+# IDE / 系统
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# 运行日志
+*.log
+# 源码目录中意外生成的日志
+wechatnetguard.log*
+*.exe~
