@@ -68,8 +68,8 @@ Start-Service WeChatNetGuard     # 重新启动
 ## 从源码构建
 
 ```powershell
-git clone https://github.com/<你的用户名>/wechatguard.git
-cd wechatguard
+git clone https://github.com/midwong/wechatnetguard.git
+cd wechatnetguard
 go build -trimpath -ldflags "-s -w -H=windowsgui -X main.version=v1.0.0" -o wechatguard.exe .
 ```
 
